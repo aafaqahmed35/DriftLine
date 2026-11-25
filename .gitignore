@@ -1,0 +1,27 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Airflow runtime logs
+logs/*
+!logs/.gitkeep
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# dbt artifacts (for future milestones)
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# OS & editor files
+.DS_Store
+.idea/
+.vscode/
+
